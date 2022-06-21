@@ -1,0 +1,14 @@
+[features]
+seeds = false
+[programs.devnet]
+l6 = "BcFKFrrNMZoD9zVZbgf2LhpvdQwz9u2PBAYXB1kQbrLs"
+[registry]
+url = "https://anchor.projectserum.com"
+
+[provider]
+cluster = "devnet"
+# wallet = "/Users/manhthong/.config/solana/id.json"
+wallet = "/home/manhthong/.config/solana/id.json"
+
+[scripts]
+test = "yarn run ts-mocha -p ./tsconfig.json -t 1000000 tests/**/*.ts"
